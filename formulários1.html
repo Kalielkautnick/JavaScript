@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+
+<style>
+    body {
+        font-family: sans-serif;
+    }
+    label {
+        cursor: pointer;
+        display: block;
+    }
+</style>
+
+<body>
+    <form action="#" method="get" 
+    target="_blank" autocomplete="off">
+
+    <p>Meu formulário</p>
+       <p> 
+      <label for="nome">Nome</label>
+      <input type="text" id="nome" name="nome" 
+      placeholder="Seu nome" required> 
+       </p>
+
+       <p> 
+        <label for="sim">Você é um robô?</label>
+        <br>
+        <input type="checkbox" name="sim" id="sim" 
+        value="sim">
+        Sim
+        </p>
+
+        <p> 
+        <label for="não"></label>
+        <input type="checkbox" name="não" id="não" 
+        value="não">
+        Não
+        </p>
+<br>
+        <p> 
+           <label for="Entre">Qual sua idade?</label>
+           <br>
+           <input type="radio" name="idade" id="Entre" 
+        value="5-18">
+        5-18 anos
+        </p>
+
+        <p> 
+           <label for="Entre"></label>
+           <input type="radio" name="idade" id="Entre" 
+        value="19-30">
+        19-30 anos
+        </p>
+
+        <p> 
+            <label for="Entre:"></label>
+            <input type="radio" name="idade" id="Entre" 
+         value="31-30">
+         31-60 anos
+         </p>
+
+         <p> 
+            <label for="Entre:"></label>
+            <input type="radio" name="idade" id="Entre" 
+         value="+60">
+         +60 anos
+         </p>
+         
+     <!radio não permite clicar mais de uma opção>
+
+       <p>
+        <button type="reset">Reset</button>
+        <button type="submit">Enviar</button>
+       </p>
+
+    </form>
+</body>
+</html>
