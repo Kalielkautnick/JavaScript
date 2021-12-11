@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+
+<style>
+    table td, table th {
+        border: 2px solid rgb(105, 101, 101);
+        padding: 5px;
+    }
+
+    body {
+        font-family: sans-serif;
+    }
+
+    table { 
+        font-size: 30px;
+        border-collapse: collapse;
+        width: 130%;
+        text-align: left;
+    }
+
+    table th{
+        background-color: rgb(143, 138, 138);
+    }
+
+    tfoot td {
+        font-style: italic;
+        font-size: 30px;
+        background-color: rgb(155, 150, 150);
+    }
+    table caption {
+        caption-side: bottom;
+        text-align: left;
+        font-size: 15px;
+        margin-bottom: 5px;
+        font-style: italic;
+        margin-top: 5px;
+    }
+    
+    body p {
+        background-color: rgb(27, 24, 24);
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .table {
+        width: 100%;
+        overflow: auto;
+    }
+    
+</style>
+<body>
+    <p>Segue a tabela a seguir</p>
+<br>
+<div: class="table">
+    <table>
+        <caption>Tabela de preços para produção e venda</caption>
+        <thead>
+            <tr>
+                <th>Produto</th>
+                <th>Quantidade</th>
+                <th>Valor</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Camisa</td>
+                <td>5</td>
+                <td>R$40,00</td>
+            </tr>
+            <tr>
+                <td>Tênis</td>
+                <td>3</td>
+                <td>R$150,00</td>
+            </tr>
+            <tr>
+                <td>Calça</td>
+                <td>6</td>
+                <td>R$30,00</td>
+            </tr>
+            <tr>
+                <td colspan="2">Demais produtos</td>
+                <td>R$200,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Valor total:</td>
+                <td>R$730,00</td>
+            </tr>
+        </tfoot>
+    </table>
+</div>  
+
+</body>
+</html>
